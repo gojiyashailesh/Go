@@ -29,5 +29,21 @@ func main() {
 	fmt.Println("----------------------------------------")
 	syntax.Day1()
 	fmt.Println("---------------------------------------")
-
+	res := syntax.FunctionDemo()
+	fmt.Println(res)
+	fmt.Println("---------------------------------------")
+	res2:= syntax.Func2Demo(44,55)
+	fmt.Println(res2)
+	fmt.Println("---------------------------------------") 
+	x,y,z:=syntax.FuncWithMultiReturnValue(3,4,5)
+	fmt.Println(x,y,z)
+	fmt.Println("--------------------------------------")
+	fmt.Println(syntax.VariableArgumentFunc(3,4,5,6,7,8,9))
+	fmt.Println("--------------------------------------")
+	fmt.Println(syntax.IntSeq())
+	fmt.Println(syntax.IntSeq())
+	fmt.Println("--------------------------------------")
+	syntax.RangeFuncArr()
+	fmt.Println("--------------------------------------")
+	
 }
