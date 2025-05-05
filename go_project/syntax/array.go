@@ -3,7 +3,7 @@ package syntax
 import "fmt"
 
 func ArraysDemo() {
-	var arr = []int{22, 33, 44}
+	var arr = [3]int{22, 33, 44}
 	fmt.Println(arr)
 	var arr2 [5]int
 	fmt.Println(arr2)
