@@ -5,12 +5,12 @@ import (
 	"time"
 )
 
-func greet(){
-	fmt.Println("Wait is Over",time.Now())
+func greet() {
+	fmt.Println("Wait is Over", time.Now())
 }
 
-func GorouteRunner(){
+func GorouteRunner() {
 	go greet()
-	fmt.Println("Wating",time.Now())
+	fmt.Println("Wating", time.Now())
 	time.Sleep(time.Minute)
 }

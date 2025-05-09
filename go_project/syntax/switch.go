@@ -5,9 +5,9 @@ import (
 	"time"
 )
 
-func SwitchDemo(){
-	i:=3
-	switch i{
+func SwitchDemo() {
+	i := 3
+	switch i {
 	case 1:
 		fmt.Println("one")
 	case 2:
@@ -16,12 +16,12 @@ func SwitchDemo(){
 		fmt.Println("Sorry")
 	}
 
-	//time lib in the go 
+	//time lib in the go
 
-	switch time.Now().Weekday(){
-	case time.Saturday,time.Sunday:
-			fmt.Println("weekend enjoy")
+	switch time.Now().Weekday() {
+	case time.Saturday, time.Sunday:
+		fmt.Println("weekend enjoy")
 	default:
-			fmt.Println("Weekday work hard")
+		fmt.Println("Weekday work hard")
 	}
 }

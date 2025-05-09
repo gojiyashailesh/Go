@@ -1,5 +1,5 @@
 package syntax
 
-func PointerDemo(){
-		
+func PointerDemo() {
+
 }

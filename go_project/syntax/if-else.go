@@ -2,12 +2,12 @@ package syntax
 
 import "fmt"
 
-func IfElseDemo(){
+func IfElseDemo() {
 	var weekends string = "s"
 
-	if weekends == "sunday"{
+	if weekends == "sunday" {
 		fmt.Println("You can rest today")
-	}else{
+	} else {
 		fmt.Println("No rest work hard")
 	}
 }

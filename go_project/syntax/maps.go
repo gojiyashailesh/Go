@@ -8,4 +8,3 @@ func MapsDemo() {
 	m["two"] = 14
 	fmt.Println(m)
 }
-
